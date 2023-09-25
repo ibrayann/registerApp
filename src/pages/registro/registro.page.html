@@ -1,7 +1,4 @@
-<ion-content
-  class="ion-content-center"
-  style="background-color: black; color: white"
->
+<ion-content class="ion-content-center">
   <!-- Logo del colegio -->
   <ion-img
     src="assets/logo.png"
@@ -11,62 +8,42 @@
   <!-- Formulario de registro centrado -->
   <div class="register-container">
     <ion-item>
-      <ion-label position="floating" style="color: white">Nombre</ion-label>
+      <ion-label position="floating">Nombre</ion-label>
       <ion-input
         [(ngModel)]="nombre"
         type="text"
         placeholder="Nombre"
-        style="
-          color: white;
-          background-color: black;
-          border-bottom: 1px solid white;
-        "
+        style="color: white; border-bottom: 1px solid white"
       ></ion-input>
     </ion-item>
 
     <ion-item>
-      <ion-label position="floating" style="color: white"
-        >Correo Electrónico</ion-label
-      >
+      <ion-label position="floating">Correo Electrónico</ion-label>
       <ion-input
         [(ngModel)]="correo"
         type="email"
         placeholder="Correo Electrónico"
-        style="
-          color: white;
-          background-color: black;
-          border-bottom: 1px solid white;
-        "
+        style="border-bottom: 1px solid white"
       ></ion-input>
     </ion-item>
 
     <ion-item>
-      <ion-label position="floating" style="color: white">Contraseña</ion-label>
+      <ion-label position="floating">Contraseña</ion-label>
       <ion-input
         [(ngModel)]="contrasena"
         type="password"
         placeholder="Contraseña"
-        style="
-          color: white;
-          background-color: black;
-          border-bottom: 1px solid white;
-        "
+        style="border-bottom: 1px solid white"
       ></ion-input>
     </ion-item>
 
     <ion-item>
-      <ion-label position="floating" style="color: white"
-        >Confirmar Contraseña</ion-label
-      >
+      <ion-label position="floating">Confirmar Contraseña</ion-label>
       <ion-input
         [(ngModel)]="confirmarContrasena"
         type="password"
         placeholder="Confirmar Contraseña"
-        style="
-          color: white;
-          background-color: black;
-          border-bottom: 1px solid white;
-        "
+        style="border-bottom: 1px solid white"
       ></ion-input>
     </ion-item>
 
@@ -86,7 +63,7 @@
       lines="none"
       (click)="irAInicioSesion()"
     >
-      <ion-label class="ion-text-center" style="color: white"
+      <ion-label class="ion-text-center"
         >¿Ya tienes una cuenta? Inicia sesión aquí</ion-label
       >
     </ion-item>

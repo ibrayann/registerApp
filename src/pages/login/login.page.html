@@ -1,7 +1,4 @@
-<ion-content
-  class="ion-content-center"
-  style="background-color: black; color: white"
->
+<ion-content class="ion-content-center">
   <!-- Logo del colegio -->
   <ion-img
     src="assets/logo.png"
@@ -11,32 +8,22 @@
   <!-- Formulario de inicio de sesión centrado -->
   <div class="login-container">
     <ion-item>
-      <ion-label position="floating" style="color: white"
-        >Nombre de usuario</ion-label
-      >
+      <ion-label position="floating">Nombre de usuario</ion-label>
       <ion-input
         [(ngModel)]="username"
         type="text"
         placeholder="Nombre de usuario"
-        style="
-          color: white;
-          background-color: black;
-          border-bottom: 1px solid white;
-        "
+        style="border-bottom: 1px solid white"
       ></ion-input>
     </ion-item>
 
     <ion-item class="my-5">
-      <ion-label position="floating" style="color: white">Contraseña</ion-label>
+      <ion-label position="floating">Contraseña</ion-label>
       <ion-input
         [(ngModel)]="password"
         type="password"
         placeholder="Contraseña"
-        style="
-          color: white;
-          background-color: black;
-          border-bottom: 1px solid white;
-        "
+        style="border-bottom: 1px solid white"
       ></ion-input>
     </ion-item>
 
@@ -56,13 +43,11 @@
       lines="none"
       (click)="recuperarContrasena()"
     >
-      <ion-label class="ion-text-center" style="color: white"
-        >¿Olvidaste tu contraseña?</ion-label
-      >
+      <ion-label class="ion-text-center">¿Olvidaste tu contraseña?</ion-label>
     </ion-item>
     <!-- Enlace para ir a la página de registro -->
     <ion-item class="ion-text-center" lines="none" (click)="irARegistro()">
-      <ion-label class="ion-text-center" style="color: white"
+      <ion-label class="ion-text-center"
         >¿No tienes cuenta?, regístrate aquí</ion-label
       >
     </ion-item>
