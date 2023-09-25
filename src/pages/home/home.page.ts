@@ -65,16 +65,12 @@ export class HomePage {
 
     return `${fechaFormateada} ${horaFormateada}`;
   }
-  // En la página de inicio
 verDetalleClase(clase: any) {
   this.router.navigate(['/detalle-clase', { clase: JSON.stringify(clase) }]);
   
 
 }
   logout() {
-    // Aquí puedes agregar la lógica para cerrar sesión
-    // Por ejemplo, destruir el token de sesión en el almacenamiento local
-    // Luego, navegar a la página de inicio de sesión
     this.router.navigate(['/login']);
   }
 

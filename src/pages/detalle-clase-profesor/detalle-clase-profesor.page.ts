@@ -18,10 +18,7 @@ export class DetalleClaseProfesorPage implements OnInit {
     this.activatedRoute.paramMap.subscribe((params) => {
       const claseParam = params.get('clase');
       if (claseParam) {
-        // Parsea la información de la clase desde la cadena JSON en la URL
         this.clase = JSON.parse(claseParam);
-        // Luego puedes usar this.clase para mostrar la información en la página
-        // También configura los datos para el código QR
         this.qrData = JSON.stringify(this.clase);
         this.mostrarImagen = false;
 
@@ -29,7 +26,6 @@ export class DetalleClaseProfesorPage implements OnInit {
           "SEBASTIAN ANINIR LLANCAO",
           "ALDO MIGUEL ARROYO CASTRO",
           "MATIAS NICOLAS BELLO RODRIGUEZ",
-          // ... (resto de los nombres de los alumnos)
           "BENJAMIN ANDRES SEPULVEDA TOLEDO",
           "FELIPE ANDRES VALDEBENITO CABRERA"
         ];
@@ -38,12 +34,11 @@ export class DetalleClaseProfesorPage implements OnInit {
   }
 
   async generarQRCode() {
-    // Verifica si hay datos para generar el código QR
     if (this.clase) {
       console.log('abrir cámara para código QR para la clase:');
-      // Cambia la visibilidad de la imagen
+
       this.mostrarImagen = true;
-      // Abre un modal para mostrar el código QR
+
     }
   }
 }

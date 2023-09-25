@@ -22,20 +22,19 @@ export class DetalleClasePage implements OnInit {
     this.activatedRoute.paramMap.subscribe((params) => {
       const claseParam = params.get('clase');
       if (claseParam) {
-        // Parsea la información de la clase desde la cadena JSON en la URL
+
         this.clase = JSON.parse(claseParam);
-        // Luego puedes usar this.clase para mostrar la información en la página
-        // También configura los datos para el código QR
+        
         this.qrData = JSON.stringify(this.clase);
       }
     });
   }
 
   async generarQRCode() {
-    // Verifica si hay datos para generar el código QR
+
     if (this.clase) {
       this.router.navigate(['/scanner']);
-      // Abre un modal para mostrar el código QR
+
     }
   }
 }

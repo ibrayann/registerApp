@@ -72,9 +72,6 @@ verDetalleClase(clase: any) {
 
 }
   logout() {
-    // Aquí puedes agregar la lógica para cerrar sesión
-    // Por ejemplo, destruir el token de sesión en el almacenamiento local
-    // Luego, navegar a la página de inicio de sesión
     this.router.navigate(['/login']);
   }
 
