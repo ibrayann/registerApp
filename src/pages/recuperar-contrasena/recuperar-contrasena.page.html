@@ -1,0 +1,50 @@
+<ion-content
+  class="ion-content-center"
+  style="background-color: black; color: white"
+>
+  <!-- Logo del colegio -->
+  <ion-img
+    src="assets/logo.png"
+    style="width: 300px; height: 300px; margin: auto"
+  ></ion-img>
+
+  <!-- Formulario para recuperar contraseña centrado -->
+  <div class="recover-container">
+    <ion-item>
+      <ion-label position="floating" style="color: white"
+        >Correo Electrónico</ion-label
+      >
+      <ion-input
+        [(ngModel)]="correo"
+        type="email"
+        placeholder="Correo Electrónico"
+        style="
+          color: white;
+          background-color: black;
+          border-bottom: 1px solid white;
+        "
+      ></ion-input>
+    </ion-item>
+
+    <ion-button
+      expand="block"
+      shape="round"
+      class="mx-5 mt-5"
+      color="light"
+      (click)="recuperarContrasena()"
+    >
+      Recuperar Contraseña
+    </ion-button>
+
+    <!-- Enlace para iniciar sesión -->
+    <ion-item
+      class="ion-text-center mt-3"
+      lines="none"
+      (click)="irAInicioSesion()"
+    >
+      <ion-label class="ion-text-center" style="color: white"
+        >¿Ya tienes una cuenta? Inicia sesión aquí</ion-label
+      >
+    </ion-item>
+  </div>
+</ion-content>
