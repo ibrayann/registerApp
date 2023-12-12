@@ -5,11 +5,10 @@ La aplicación móvil desarrollada con Ionic tiene como objetivo gestionar el re
 1. **Registro y Autenticación de Usuarios:**
 
    - La aplicación permite a los usuarios registrarse y autenticarse para acceder a sus funciones.
-     > .[!NOTE]
 
-2. **Escaneo de Códigos QR:**
+> .[!NOTE] 2. **Escaneo de Códigos QR:**
 
-   - Los usuarios pueden utilizar el escáner QR incorporado para registrar la asistencia a diferentes asignaturas.
+    - Los usuarios pueden utilizar el escáner QR incorporado para registrar la asistencia a diferentes asignaturas.
 
 3. **Gestión de Asistencia:**
 
