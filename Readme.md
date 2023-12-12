@@ -28,7 +28,7 @@ La aplicación móvil desarrollada con Ionic tiene como objetivo gestionar el re
 3. **Resumen de Asistencia del Alumno:**
    ![Resumen de Asistencia](link-a-imagen3)
 
-> [!IMPORTANT] > [Enlace de Descarga de la APK](enlace-a-APK): Descarga la APK para acceder a la aplicación.
+- **Enlace de Descarga de la APK:** Descarga la APK para acceder a la aplicación. **[¡Es crucial para utilizar la aplicación!](enlace-a-APK)**
 
 ## Enlaces de Descarga y Código Fuente
 
