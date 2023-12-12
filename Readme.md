@@ -3,12 +3,10 @@
 La aplicación móvil desarrollada con Ionic tiene como objetivo gestionar el registro de asistencia de los alumnos a través de un escáner QR. Sus principales funcionalidades son:
 
 1. **Registro y Autenticación de Usuarios:**
-
    - La aplicación permite a los usuarios registrarse y autenticarse para acceder a sus funciones.
 
-[!NOTE] 2. **Escaneo de Códigos QR:**
-
-- Los usuarios pueden utilizar el escáner QR incorporado para registrar la asistencia a diferentes asignaturas.
+> [!TIP]
+> Los usuarios pueden utilizar el escáner QR incorporado para registrar la asistencia a diferentes asignaturas.
 
 3. **Gestión de Asistencia:**
 
